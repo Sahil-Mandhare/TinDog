@@ -87,6 +87,9 @@ h2{
 #pricing{
     padding: 100px;
 }
+#pricing h2,p{
+    text-align: center;
+}
 
 .pricing-colum{
     padding: 3% 2%;
