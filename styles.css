@@ -1,0 +1,125 @@
+body{
+    font-family: 'Montserrat';
+}
+h3{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size:3rem ;
+    line-height: 1.5;
+}
+#title{
+    color:#fff;
+    background-color: #ff4c68;
+}
+.title-content{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 3.5rem;
+    line-height: 1.5;
+   
+}
+.contanier-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size:2rem;
+    font-style: normal;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.download-button{
+    margin:5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;;
+    transform: rotate(25deg);
+    right: 50%;
+   
+}
+
+.fa-solid{
+    color: #ef8172;
+    font-size: 35px;
+    margin-bottom:1rem ;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+#testimonials{
+    padding: 7% 15%;
+    color: #fff;
+    background-color:#ff4c68 ;
+    text-align: center;
+}
+.testimonial-image{
+    border-radius: 100%;
+    padding: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-colum{
+    padding: 3% 2%;
+    text-align: center;
+}
+/*media-quiri*/
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.cta-content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 45px;
+    
+}
+#footer{
+    text-align: center;
+    padding: 7% 15% 0%;
+}
+.footer-img{
+    margin: 2% 2% 2% 2%;
+    size: 10rem;
+}
+
